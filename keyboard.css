@@ -24,9 +24,10 @@
     color: white;
     font-weight: bold;
     text-align: center;
-    margin: 0 0 5px 5px;
+    margin: 5px 5px 5px 5px;
     font-size: large;
     pointer-events: none;
+    line-height: 5em;
 
     /* THE COLUMN COUNT */
     flex: 1 0 auto;
@@ -40,7 +41,7 @@
 }
 
 .space {
-    width: 10em;
+    width: 25em;
 }
 
 .normal-key {
@@ -52,4 +53,8 @@
 .special-key {
     border-radius: 5px;
     background: #f2ab26;
+}
+
+.flex-container > *:active{
+    background: red;
 }
