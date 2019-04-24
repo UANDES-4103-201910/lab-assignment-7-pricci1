@@ -2,7 +2,7 @@
 /* Remember to validate your CSS at https://jigsaw.w3.org/css-validator/ */
 #kcontainer {
     background: black;
-    margin: 3em;
+    margin: 1em;
 }
 
 .flex-container {
@@ -14,7 +14,7 @@
     width: 100%;
 
     flex-direction: row;
-    /* align-items: flex-start; */
+    align-items: center;
     /* justify-content: space-between; */
 }
 
@@ -30,8 +30,26 @@
 
     /* THE COLUMN COUNT */
     flex: 1 0 auto;
+
+    border-radius: 5px;
 }
 
-.flex-container:nth-child(1) {
-    grid-column: 1 / 3;
+.flex-container:nth-child(5) {
+    /*width: 100px;*/
+    /*align-items: center;*/
+}
+
+.space {
+    width: 10em;
+}
+
+.normal-key {
+    /*width: 5em;*/
+    /*padding: 1px;*/
+    /*margin: 1px;*/
+}
+
+.special-key {
+    border-radius: 5px;
+    background: #f2ab26;
 }
